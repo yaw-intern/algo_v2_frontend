@@ -1,0 +1,81 @@
+body{
+    background-color: #383838;
+    color: white;
+}
+/* Nav */
+nav{
+    padding: 5px;
+    position: sticky;
+    z-index: 2;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: rgba(0, 0, 0, 0.568);
+    transition: ease-in-out .2s;
+}
+
+.nav-left{
+    text-align: left;
+}
+
+.nav-right{
+    text-align: right;
+}
+
+nav ul{
+    display: inline;
+    list-style: none;
+}
+
+nav li{
+    padding: 5px;
+    display: inline;
+    margin-right: 10px;
+}
+/* Hero Section */
+.wrap{
+    margin: 50px;
+}
+
+.headline{
+    margin-top: 30vh;
+    text-align: left;
+}
+
+.headline h1{
+    font-size: 7rem;
+}
+
+.highlight{
+    color:#f4925b;
+}
+
+#learn-more-button{
+    color:white;
+}
+
+#learn-more-button:hover{
+    color: rgba(170, 169, 169, 0.733);
+}
+
+.button-orange{
+    background-color: #f4925b !important;
+    border-color: #f4925b !important;
+    color: black;
+}
+
+.button-orange:hover{
+    background-color: #fda372 !important;
+    transition: ease-in-out .2s;
+}
+
+.hero-img{
+    width: 40vw;
+    height: 40vh;
+    margin-left: 20%;
+}
