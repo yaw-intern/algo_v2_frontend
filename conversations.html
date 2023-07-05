@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css" type="text/css"/>
     <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css" type="text/css"/>
+    <link rel="stylesheet" href="conversations.css" type="text/css"/>
     <link rel="stylesheet" href="dashboard.css" type="text/css"/>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <title>Home</title>
     <script src="https://kit.fontawesome.com/04955d02c9.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AlgoLab - Dash</title>
+    <title>Dashboard</title>
 </head>
 <body>
     
@@ -24,13 +25,12 @@
                     <div class="pfp">
                         <span><img id="msg-pfp" src="pfp.jpg"><p style="color: white;">Nate</p></span>
                         <span><small> &#128515; @0175nath</small></span><br>
-                      
+                        
                     </div>
                     <hr>
                     <ul>
                         <li class="menu-item"><a href="#"><i class="fa-solid fa-user" style="color: #ffffff;"></i> Profile</a></li>
                         <li class="menu-item"><a href="#"><i class="fa-solid fa-chart-pie" style="color: #ffffff;"></i> Dashboard</a></li>
-                        <li class="menu-item"><a href="#"><i class="fa-solid fa-money-bill-trend-up" style="color: #ffffff;"></i> Trade</a></li>
                         <li class="menu-item"><a href="#"><i class="fa-solid fa-message" style="color: #ffffff;"></i> Messages</a></li>
                         <div class="bottom-menu">
                             <li class="menu-item"><a href="#"><i class="fa-solid fa-gear" style="color: #ffffff;"></i> Settings</a></li>
@@ -43,34 +43,51 @@
             </div>
         </span>   
     </div>
-       
-            <div id="top-row">
-                <div class="pfp">
-                    <span><img class="usr-pfp" src="pfp.jpg"><p>Welcome, Nate</p></span>
-                </div>
-            </div>
-        
-        
-        
-    
-   
-    <div id="dash-wrapper" class="wrap">
-        <div class="row">
-            <div class="six columns">
-                <div class="card-rounded">
+    <div class="pfp">
+        <span><img class="usr-pfp" src="pfp.jpg"><p></p></span>
+    </div>
 
-                </div>
-            </div>
-            <div class="six columns">
-                <div class="card-rounded">
+    
+        <div class="row">
+            <div class="twelve columns">
+               <div class="chat-info">
+               <h4>Conversations</h4>
+               <hr>
+               <div class="chat-preview">
+                <div>
+                    <div id="msg">
+                        <div id="msg-left">
+                            <img class="msg-pfp" src="https://i.pinimg.com/564x/28/c5/49/28c54966142ad9b4872a6a25564f6f75.jpg">
+                        </div>
+                        <div id="msg-right">
+                            <p id="preview-username">John <small>• 11:20AM</small></p>
+                            <p id="msg-message-preview">Hey when are you free to get some co...</p>
+                        </div>
+                        
+                    </div>
+                    <hr>
+
+                    <div id="msg">
+                        <div>
+                            <img class="msg-pfp" src="https://hips.hearstapps.com/hmg-prod/images/domestic-cat-lies-in-a-basket-with-a-knitted-royalty-free-image-1592337336.jpg?">
+                        </div>
+                        <div id="msg-right">
+                            <p id="preview-username">Timothy <small>• 11:20AM</small></p>
+                        <p id="msg-message-preview">Checkout my TA on USDGBP for today...</p>
+                        
+                        </div>
+                    </div>
+                    <hr>
+                    
                     
                 </div>
+                
+               </div>
+               </div>
+                
             </div>
-        </div>
-        <hr>
-        <div class="card-rounded">
-
-        </div>
+       
+       
     </div>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
